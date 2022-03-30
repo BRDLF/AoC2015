@@ -6,8 +6,8 @@ public class Day1 {
     public static void main(String[] args) {
         int floor = 0;
         try {
-            File myObj = new File("input/day1.txt");
-            Scanner myScanner = new Scanner(myObj);
+            File inFile = new File("input/day1.txt");
+            Scanner myScanner = new Scanner(inFile);
             while (myScanner.hasNextLine()) {
                 String data = myScanner.nextLine();
 
